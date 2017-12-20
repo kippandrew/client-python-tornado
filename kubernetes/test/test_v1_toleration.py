@@ -32,7 +32,7 @@ class TestV1Toleration(unittest.TestCase):
     def testV1Toleration(self):
         """Test V1Toleration"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_toleration.V1Toleration()  # noqa: E501
+        # model = kubernetes.client.models.v1_toleration.V1Toleration()  # noqa: E501
         pass
 
 

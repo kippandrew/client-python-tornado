@@ -32,7 +32,7 @@ class TestV1AzureFileVolumeSource(unittest.TestCase):
     def testV1AzureFileVolumeSource(self):
         """Test V1AzureFileVolumeSource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_azure_file_volume_source.V1AzureFileVolumeSource()  # noqa: E501
+        # model = kubernetes.client.models.v1_azure_file_volume_source.V1AzureFileVolumeSource()  # noqa: E501
         pass
 
 

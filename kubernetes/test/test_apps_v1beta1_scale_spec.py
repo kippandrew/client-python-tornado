@@ -32,7 +32,7 @@ class TestAppsV1beta1ScaleSpec(unittest.TestCase):
     def testAppsV1beta1ScaleSpec(self):
         """Test AppsV1beta1ScaleSpec"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.apps_v1beta1_scale_spec.AppsV1beta1ScaleSpec()  # noqa: E501
+        # model = kubernetes.client.models.apps_v1beta1_scale_spec.AppsV1beta1ScaleSpec()  # noqa: E501
         pass
 
 

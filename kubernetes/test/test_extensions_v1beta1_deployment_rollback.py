@@ -32,7 +32,7 @@ class TestExtensionsV1beta1DeploymentRollback(unittest.TestCase):
     def testExtensionsV1beta1DeploymentRollback(self):
         """Test ExtensionsV1beta1DeploymentRollback"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.extensions_v1beta1_deployment_rollback.ExtensionsV1beta1DeploymentRollback()  # noqa: E501
+        # model = kubernetes.client.models.extensions_v1beta1_deployment_rollback.ExtensionsV1beta1DeploymentRollback()  # noqa: E501
         pass
 
 

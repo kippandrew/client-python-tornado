@@ -32,7 +32,7 @@ class TestV1beta1DaemonSetSpec(unittest.TestCase):
     def testV1beta1DaemonSetSpec(self):
         """Test V1beta1DaemonSetSpec"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_daemon_set_spec.V1beta1DaemonSetSpec()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_daemon_set_spec.V1beta1DaemonSetSpec()  # noqa: E501
         pass
 
 

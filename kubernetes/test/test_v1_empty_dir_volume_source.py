@@ -32,7 +32,7 @@ class TestV1EmptyDirVolumeSource(unittest.TestCase):
     def testV1EmptyDirVolumeSource(self):
         """Test V1EmptyDirVolumeSource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_empty_dir_volume_source.V1EmptyDirVolumeSource()  # noqa: E501
+        # model = kubernetes.client.models.v1_empty_dir_volume_source.V1EmptyDirVolumeSource()  # noqa: E501
         pass
 
 

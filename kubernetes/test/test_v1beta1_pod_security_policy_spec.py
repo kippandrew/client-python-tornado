@@ -32,7 +32,7 @@ class TestV1beta1PodSecurityPolicySpec(unittest.TestCase):
     def testV1beta1PodSecurityPolicySpec(self):
         """Test V1beta1PodSecurityPolicySpec"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_pod_security_policy_spec.V1beta1PodSecurityPolicySpec()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_pod_security_policy_spec.V1beta1PodSecurityPolicySpec()  # noqa: E501
         pass
 
 

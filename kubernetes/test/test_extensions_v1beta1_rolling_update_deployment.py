@@ -32,7 +32,7 @@ class TestExtensionsV1beta1RollingUpdateDeployment(unittest.TestCase):
     def testExtensionsV1beta1RollingUpdateDeployment(self):
         """Test ExtensionsV1beta1RollingUpdateDeployment"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.extensions_v1beta1_rolling_update_deployment.ExtensionsV1beta1RollingUpdateDeployment()  # noqa: E501
+        # model = kubernetes.client.models.extensions_v1beta1_rolling_update_deployment.ExtensionsV1beta1RollingUpdateDeployment()  # noqa: E501
         pass
 
 

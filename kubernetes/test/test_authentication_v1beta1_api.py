@@ -24,7 +24,7 @@ class TestAuthenticationV1beta1Api(unittest.TestCase):
     """AuthenticationV1beta1Api unit test stubs"""
 
     def setUp(self):
-        self.api = client.api.authentication_v1beta1_api.AuthenticationV1beta1Api()  # noqa: E501
+        self.api = kubernetes.client.api.authentication_v1beta1_api.AuthenticationV1beta1Api()  # noqa: E501
 
     def tearDown(self):
         pass

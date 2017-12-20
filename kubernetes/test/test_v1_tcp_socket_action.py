@@ -32,7 +32,7 @@ class TestV1TCPSocketAction(unittest.TestCase):
     def testV1TCPSocketAction(self):
         """Test V1TCPSocketAction"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_tcp_socket_action.V1TCPSocketAction()  # noqa: E501
+        # model = kubernetes.client.models.v1_tcp_socket_action.V1TCPSocketAction()  # noqa: E501
         pass
 
 

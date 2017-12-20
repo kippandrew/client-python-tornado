@@ -32,7 +32,7 @@ class TestV1NodeSystemInfo(unittest.TestCase):
     def testV1NodeSystemInfo(self):
         """Test V1NodeSystemInfo"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_node_system_info.V1NodeSystemInfo()  # noqa: E501
+        # model = kubernetes.client.models.v1_node_system_info.V1NodeSystemInfo()  # noqa: E501
         pass
 
 

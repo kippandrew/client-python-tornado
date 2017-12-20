@@ -32,7 +32,7 @@ class TestV1beta1HTTPIngressPath(unittest.TestCase):
     def testV1beta1HTTPIngressPath(self):
         """Test V1beta1HTTPIngressPath"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_http_ingress_path.V1beta1HTTPIngressPath()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_http_ingress_path.V1beta1HTTPIngressPath()  # noqa: E501
         pass
 
 

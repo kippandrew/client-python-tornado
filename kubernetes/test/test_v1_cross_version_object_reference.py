@@ -32,7 +32,7 @@ class TestV1CrossVersionObjectReference(unittest.TestCase):
     def testV1CrossVersionObjectReference(self):
         """Test V1CrossVersionObjectReference"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_cross_version_object_reference.V1CrossVersionObjectReference()  # noqa: E501
+        # model = kubernetes.client.models.v1_cross_version_object_reference.V1CrossVersionObjectReference()  # noqa: E501
         pass
 
 

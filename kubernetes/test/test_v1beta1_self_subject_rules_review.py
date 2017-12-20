@@ -32,7 +32,7 @@ class TestV1beta1SelfSubjectRulesReview(unittest.TestCase):
     def testV1beta1SelfSubjectRulesReview(self):
         """Test V1beta1SelfSubjectRulesReview"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_self_subject_rules_review.V1beta1SelfSubjectRulesReview()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_self_subject_rules_review.V1beta1SelfSubjectRulesReview()  # noqa: E501
         pass
 
 

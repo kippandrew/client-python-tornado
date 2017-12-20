@@ -32,7 +32,7 @@ class TestV1Handler(unittest.TestCase):
     def testV1Handler(self):
         """Test V1Handler"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_handler.V1Handler()  # noqa: E501
+        # model = kubernetes.client.models.v1_handler.V1Handler()  # noqa: E501
         pass
 
 

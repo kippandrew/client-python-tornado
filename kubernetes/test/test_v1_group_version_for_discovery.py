@@ -32,7 +32,7 @@ class TestV1GroupVersionForDiscovery(unittest.TestCase):
     def testV1GroupVersionForDiscovery(self):
         """Test V1GroupVersionForDiscovery"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_group_version_for_discovery.V1GroupVersionForDiscovery()  # noqa: E501
+        # model = kubernetes.client.models.v1_group_version_for_discovery.V1GroupVersionForDiscovery()  # noqa: E501
         pass
 
 

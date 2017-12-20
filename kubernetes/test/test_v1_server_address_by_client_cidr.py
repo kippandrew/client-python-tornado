@@ -32,7 +32,7 @@ class TestV1ServerAddressByClientCIDR(unittest.TestCase):
     def testV1ServerAddressByClientCIDR(self):
         """Test V1ServerAddressByClientCIDR"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_server_address_by_client_cidr.V1ServerAddressByClientCIDR()  # noqa: E501
+        # model = kubernetes.client.models.v1_server_address_by_client_cidr.V1ServerAddressByClientCIDR()  # noqa: E501
         pass
 
 

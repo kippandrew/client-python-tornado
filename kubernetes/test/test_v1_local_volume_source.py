@@ -32,7 +32,7 @@ class TestV1LocalVolumeSource(unittest.TestCase):
     def testV1LocalVolumeSource(self):
         """Test V1LocalVolumeSource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_local_volume_source.V1LocalVolumeSource()  # noqa: E501
+        # model = kubernetes.client.models.v1_local_volume_source.V1LocalVolumeSource()  # noqa: E501
         pass
 
 

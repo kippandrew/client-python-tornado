@@ -24,7 +24,7 @@ class TestVersionApi(unittest.TestCase):
     """VersionApi unit test stubs"""
 
     def setUp(self):
-        self.api = client.api.version_api.VersionApi()  # noqa: E501
+        self.api = kubernetes.client.api.version_api.VersionApi()  # noqa: E501
 
     def tearDown(self):
         pass

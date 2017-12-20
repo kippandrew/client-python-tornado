@@ -32,7 +32,7 @@ class TestV1beta1StatefulSetSpec(unittest.TestCase):
     def testV1beta1StatefulSetSpec(self):
         """Test V1beta1StatefulSetSpec"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_stateful_set_spec.V1beta1StatefulSetSpec()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_stateful_set_spec.V1beta1StatefulSetSpec()  # noqa: E501
         pass
 
 

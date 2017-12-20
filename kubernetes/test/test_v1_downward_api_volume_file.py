@@ -32,7 +32,7 @@ class TestV1DownwardAPIVolumeFile(unittest.TestCase):
     def testV1DownwardAPIVolumeFile(self):
         """Test V1DownwardAPIVolumeFile"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_downward_api_volume_file.V1DownwardAPIVolumeFile()  # noqa: E501
+        # model = kubernetes.client.models.v1_downward_api_volume_file.V1DownwardAPIVolumeFile()  # noqa: E501
         pass
 
 

@@ -24,7 +24,7 @@ class TestStorageV1Api(unittest.TestCase):
     """StorageV1Api unit test stubs"""
 
     def setUp(self):
-        self.api = client.api.storage_v1_api.StorageV1Api()  # noqa: E501
+        self.api = kubernetes.client.api.storage_v1_api.StorageV1Api()  # noqa: E501
 
     def tearDown(self):
         pass

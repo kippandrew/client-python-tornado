@@ -32,7 +32,7 @@ class TestV1alpha1RuleWithOperations(unittest.TestCase):
     def testV1alpha1RuleWithOperations(self):
         """Test V1alpha1RuleWithOperations"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1alpha1_rule_with_operations.V1alpha1RuleWithOperations()  # noqa: E501
+        # model = kubernetes.client.models.v1alpha1_rule_with_operations.V1alpha1RuleWithOperations()  # noqa: E501
         pass
 
 

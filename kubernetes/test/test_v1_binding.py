@@ -32,7 +32,7 @@ class TestV1Binding(unittest.TestCase):
     def testV1Binding(self):
         """Test V1Binding"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_binding.V1Binding()  # noqa: E501
+        # model = kubernetes.client.models.v1_binding.V1Binding()  # noqa: E501
         pass
 
 

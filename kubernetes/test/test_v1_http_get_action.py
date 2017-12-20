@@ -32,7 +32,7 @@ class TestV1HTTPGetAction(unittest.TestCase):
     def testV1HTTPGetAction(self):
         """Test V1HTTPGetAction"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_http_get_action.V1HTTPGetAction()  # noqa: E501
+        # model = kubernetes.client.models.v1_http_get_action.V1HTTPGetAction()  # noqa: E501
         pass
 
 

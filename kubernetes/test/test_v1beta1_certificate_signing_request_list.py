@@ -32,7 +32,7 @@ class TestV1beta1CertificateSigningRequestList(unittest.TestCase):
     def testV1beta1CertificateSigningRequestList(self):
         """Test V1beta1CertificateSigningRequestList"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_certificate_signing_request_list.V1beta1CertificateSigningRequestList()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_certificate_signing_request_list.V1beta1CertificateSigningRequestList()  # noqa: E501
         pass
 
 

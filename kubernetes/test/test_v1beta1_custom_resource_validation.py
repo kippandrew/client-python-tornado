@@ -32,7 +32,7 @@ class TestV1beta1CustomResourceValidation(unittest.TestCase):
     def testV1beta1CustomResourceValidation(self):
         """Test V1beta1CustomResourceValidation"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_custom_resource_validation.V1beta1CustomResourceValidation()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_custom_resource_validation.V1beta1CustomResourceValidation()  # noqa: E501
         pass
 
 

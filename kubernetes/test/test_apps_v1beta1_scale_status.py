@@ -32,7 +32,7 @@ class TestAppsV1beta1ScaleStatus(unittest.TestCase):
     def testAppsV1beta1ScaleStatus(self):
         """Test AppsV1beta1ScaleStatus"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.apps_v1beta1_scale_status.AppsV1beta1ScaleStatus()  # noqa: E501
+        # model = kubernetes.client.models.apps_v1beta1_scale_status.AppsV1beta1ScaleStatus()  # noqa: E501
         pass
 
 

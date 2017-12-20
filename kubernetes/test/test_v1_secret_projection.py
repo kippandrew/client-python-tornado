@@ -32,7 +32,7 @@ class TestV1SecretProjection(unittest.TestCase):
     def testV1SecretProjection(self):
         """Test V1SecretProjection"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_secret_projection.V1SecretProjection()  # noqa: E501
+        # model = kubernetes.client.models.v1_secret_projection.V1SecretProjection()  # noqa: E501
         pass
 
 

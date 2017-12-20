@@ -32,7 +32,7 @@ class TestV1Taint(unittest.TestCase):
     def testV1Taint(self):
         """Test V1Taint"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_taint.V1Taint()  # noqa: E501
+        # model = kubernetes.client.models.v1_taint.V1Taint()  # noqa: E501
         pass
 
 

@@ -32,7 +32,7 @@ class TestV1ConfigMapEnvSource(unittest.TestCase):
     def testV1ConfigMapEnvSource(self):
         """Test V1ConfigMapEnvSource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_config_map_env_source.V1ConfigMapEnvSource()  # noqa: E501
+        # model = kubernetes.client.models.v1_config_map_env_source.V1ConfigMapEnvSource()  # noqa: E501
         pass
 
 

@@ -32,7 +32,7 @@ class TestV1StatusCause(unittest.TestCase):
     def testV1StatusCause(self):
         """Test V1StatusCause"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_status_cause.V1StatusCause()  # noqa: E501
+        # model = kubernetes.client.models.v1_status_cause.V1StatusCause()  # noqa: E501
         pass
 
 

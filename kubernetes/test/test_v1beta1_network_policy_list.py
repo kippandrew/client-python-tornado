@@ -32,7 +32,7 @@ class TestV1beta1NetworkPolicyList(unittest.TestCase):
     def testV1beta1NetworkPolicyList(self):
         """Test V1beta1NetworkPolicyList"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_network_policy_list.V1beta1NetworkPolicyList()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_network_policy_list.V1beta1NetworkPolicyList()  # noqa: E501
         pass
 
 

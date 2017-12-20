@@ -32,7 +32,7 @@ class TestV1beta1SELinuxStrategyOptions(unittest.TestCase):
     def testV1beta1SELinuxStrategyOptions(self):
         """Test V1beta1SELinuxStrategyOptions"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_se_linux_strategy_options.V1beta1SELinuxStrategyOptions()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_se_linux_strategy_options.V1beta1SELinuxStrategyOptions()  # noqa: E501
         pass
 
 

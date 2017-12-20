@@ -32,7 +32,7 @@ class TestV1NFSVolumeSource(unittest.TestCase):
     def testV1NFSVolumeSource(self):
         """Test V1NFSVolumeSource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_nfs_volume_source.V1NFSVolumeSource()  # noqa: E501
+        # model = kubernetes.client.models.v1_nfs_volume_source.V1NFSVolumeSource()  # noqa: E501
         pass
 
 

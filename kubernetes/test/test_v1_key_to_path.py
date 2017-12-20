@@ -32,7 +32,7 @@ class TestV1KeyToPath(unittest.TestCase):
     def testV1KeyToPath(self):
         """Test V1KeyToPath"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_key_to_path.V1KeyToPath()  # noqa: E501
+        # model = kubernetes.client.models.v1_key_to_path.V1KeyToPath()  # noqa: E501
         pass
 
 

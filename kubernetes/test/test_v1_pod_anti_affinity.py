@@ -32,7 +32,7 @@ class TestV1PodAntiAffinity(unittest.TestCase):
     def testV1PodAntiAffinity(self):
         """Test V1PodAntiAffinity"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_pod_anti_affinity.V1PodAntiAffinity()  # noqa: E501
+        # model = kubernetes.client.models.v1_pod_anti_affinity.V1PodAntiAffinity()  # noqa: E501
         pass
 
 

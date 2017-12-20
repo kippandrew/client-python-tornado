@@ -32,7 +32,7 @@ class TestV1HostAlias(unittest.TestCase):
     def testV1HostAlias(self):
         """Test V1HostAlias"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_host_alias.V1HostAlias()  # noqa: E501
+        # model = kubernetes.client.models.v1_host_alias.V1HostAlias()  # noqa: E501
         pass
 
 

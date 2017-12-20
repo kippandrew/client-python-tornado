@@ -32,7 +32,7 @@ class TestV1RoleBindingList(unittest.TestCase):
     def testV1RoleBindingList(self):
         """Test V1RoleBindingList"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_role_binding_list.V1RoleBindingList()  # noqa: E501
+        # model = kubernetes.client.models.v1_role_binding_list.V1RoleBindingList()  # noqa: E501
         pass
 
 

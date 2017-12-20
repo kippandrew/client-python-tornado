@@ -32,7 +32,7 @@ class TestV1EndpointsList(unittest.TestCase):
     def testV1EndpointsList(self):
         """Test V1EndpointsList"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_endpoints_list.V1EndpointsList()  # noqa: E501
+        # model = kubernetes.client.models.v1_endpoints_list.V1EndpointsList()  # noqa: E501
         pass
 
 

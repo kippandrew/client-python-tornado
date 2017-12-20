@@ -32,7 +32,7 @@ class TestV1ExecAction(unittest.TestCase):
     def testV1ExecAction(self):
         """Test V1ExecAction"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_exec_action.V1ExecAction()  # noqa: E501
+        # model = kubernetes.client.models.v1_exec_action.V1ExecAction()  # noqa: E501
         pass
 
 

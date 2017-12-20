@@ -32,7 +32,7 @@ class TestV1ResourceRule(unittest.TestCase):
     def testV1ResourceRule(self):
         """Test V1ResourceRule"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_resource_rule.V1ResourceRule()  # noqa: E501
+        # model = kubernetes.client.models.v1_resource_rule.V1ResourceRule()  # noqa: E501
         pass
 
 

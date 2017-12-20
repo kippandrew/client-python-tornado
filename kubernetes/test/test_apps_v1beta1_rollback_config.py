@@ -32,7 +32,7 @@ class TestAppsV1beta1RollbackConfig(unittest.TestCase):
     def testAppsV1beta1RollbackConfig(self):
         """Test AppsV1beta1RollbackConfig"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.apps_v1beta1_rollback_config.AppsV1beta1RollbackConfig()  # noqa: E501
+        # model = kubernetes.client.models.apps_v1beta1_rollback_config.AppsV1beta1RollbackConfig()  # noqa: E501
         pass
 
 

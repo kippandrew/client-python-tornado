@@ -32,7 +32,7 @@ class TestV1Initializers(unittest.TestCase):
     def testV1Initializers(self):
         """Test V1Initializers"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_initializers.V1Initializers()  # noqa: E501
+        # model = kubernetes.client.models.v1_initializers.V1Initializers()  # noqa: E501
         pass
 
 

@@ -32,7 +32,7 @@ class TestV1beta1SupplementalGroupsStrategyOptions(unittest.TestCase):
     def testV1beta1SupplementalGroupsStrategyOptions(self):
         """Test V1beta1SupplementalGroupsStrategyOptions"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_supplemental_groups_strategy_options.V1beta1SupplementalGroupsStrategyOptions()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_supplemental_groups_strategy_options.V1beta1SupplementalGroupsStrategyOptions()  # noqa: E501
         pass
 
 

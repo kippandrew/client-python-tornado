@@ -32,7 +32,7 @@ class TestAppsV1beta1DeploymentCondition(unittest.TestCase):
     def testAppsV1beta1DeploymentCondition(self):
         """Test AppsV1beta1DeploymentCondition"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.apps_v1beta1_deployment_condition.AppsV1beta1DeploymentCondition()  # noqa: E501
+        # model = kubernetes.client.models.apps_v1beta1_deployment_condition.AppsV1beta1DeploymentCondition()  # noqa: E501
         pass
 
 

@@ -32,7 +32,7 @@ class TestV1PersistentVolumeStatus(unittest.TestCase):
     def testV1PersistentVolumeStatus(self):
         """Test V1PersistentVolumeStatus"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_persistent_volume_status.V1PersistentVolumeStatus()  # noqa: E501
+        # model = kubernetes.client.models.v1_persistent_volume_status.V1PersistentVolumeStatus()  # noqa: E501
         pass
 
 

@@ -32,7 +32,7 @@ class TestV1beta1ServiceReference(unittest.TestCase):
     def testV1beta1ServiceReference(self):
         """Test V1beta1ServiceReference"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_service_reference.V1beta1ServiceReference()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_service_reference.V1beta1ServiceReference()  # noqa: E501
         pass
 
 

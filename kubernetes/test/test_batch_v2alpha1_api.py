@@ -24,7 +24,7 @@ class TestBatchV2alpha1Api(unittest.TestCase):
     """BatchV2alpha1Api unit test stubs"""
 
     def setUp(self):
-        self.api = client.api.batch_v2alpha1_api.BatchV2alpha1Api()  # noqa: E501
+        self.api = kubernetes.client.api.batch_v2alpha1_api.BatchV2alpha1Api()  # noqa: E501
 
     def tearDown(self):
         pass

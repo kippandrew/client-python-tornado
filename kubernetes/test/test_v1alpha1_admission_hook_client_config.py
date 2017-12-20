@@ -32,7 +32,7 @@ class TestV1alpha1AdmissionHookClientConfig(unittest.TestCase):
     def testV1alpha1AdmissionHookClientConfig(self):
         """Test V1alpha1AdmissionHookClientConfig"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1alpha1_admission_hook_client_config.V1alpha1AdmissionHookClientConfig()  # noqa: E501
+        # model = kubernetes.client.models.v1alpha1_admission_hook_client_config.V1alpha1AdmissionHookClientConfig()  # noqa: E501
         pass
 
 

@@ -32,7 +32,7 @@ class TestV1beta1HostPortRange(unittest.TestCase):
     def testV1beta1HostPortRange(self):
         """Test V1beta1HostPortRange"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_host_port_range.V1beta1HostPortRange()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_host_port_range.V1beta1HostPortRange()  # noqa: E501
         pass
 
 

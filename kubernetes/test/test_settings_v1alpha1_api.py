@@ -24,7 +24,7 @@ class TestSettingsV1alpha1Api(unittest.TestCase):
     """SettingsV1alpha1Api unit test stubs"""
 
     def setUp(self):
-        self.api = client.api.settings_v1alpha1_api.SettingsV1alpha1Api()  # noqa: E501
+        self.api = kubernetes.client.api.settings_v1alpha1_api.SettingsV1alpha1Api()  # noqa: E501
 
     def tearDown(self):
         pass

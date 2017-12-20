@@ -24,7 +24,7 @@ class TestCustomObjectsApi(unittest.TestCase):
     """CustomObjectsApi unit test stubs"""
 
     def setUp(self):
-        self.api = client.api.custom_objects_api.CustomObjectsApi()  # noqa: E501
+        self.api = kubernetes.client.api.custom_objects_api.CustomObjectsApi()  # noqa: E501
 
     def tearDown(self):
         pass

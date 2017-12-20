@@ -32,7 +32,7 @@ class TestV1StorageClass(unittest.TestCase):
     def testV1StorageClass(self):
         """Test V1StorageClass"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_storage_class.V1StorageClass()  # noqa: E501
+        # model = kubernetes.client.models.v1_storage_class.V1StorageClass()  # noqa: E501
         pass
 
 

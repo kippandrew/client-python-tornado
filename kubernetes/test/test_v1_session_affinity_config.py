@@ -32,7 +32,7 @@ class TestV1SessionAffinityConfig(unittest.TestCase):
     def testV1SessionAffinityConfig(self):
         """Test V1SessionAffinityConfig"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_session_affinity_config.V1SessionAffinityConfig()  # noqa: E501
+        # model = kubernetes.client.models.v1_session_affinity_config.V1SessionAffinityConfig()  # noqa: E501
         pass
 
 

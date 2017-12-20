@@ -32,7 +32,7 @@ class TestV2beta1PodsMetricStatus(unittest.TestCase):
     def testV2beta1PodsMetricStatus(self):
         """Test V2beta1PodsMetricStatus"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v2beta1_pods_metric_status.V2beta1PodsMetricStatus()  # noqa: E501
+        # model = kubernetes.client.models.v2beta1_pods_metric_status.V2beta1PodsMetricStatus()  # noqa: E501
         pass
 
 

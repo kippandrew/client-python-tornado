@@ -32,7 +32,7 @@ class TestV1beta1Eviction(unittest.TestCase):
     def testV1beta1Eviction(self):
         """Test V1beta1Eviction"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_eviction.V1beta1Eviction()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_eviction.V1beta1Eviction()  # noqa: E501
         pass
 
 

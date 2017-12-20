@@ -32,7 +32,7 @@ class TestV1beta1CustomResourceDefinitionNames(unittest.TestCase):
     def testV1beta1CustomResourceDefinitionNames(self):
         """Test V1beta1CustomResourceDefinitionNames"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_custom_resource_definition_names.V1beta1CustomResourceDefinitionNames()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_custom_resource_definition_names.V1beta1CustomResourceDefinitionNames()  # noqa: E501
         pass
 
 

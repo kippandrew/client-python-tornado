@@ -32,7 +32,7 @@ class TestV1NamespaceStatus(unittest.TestCase):
     def testV1NamespaceStatus(self):
         """Test V1NamespaceStatus"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_namespace_status.V1NamespaceStatus()  # noqa: E501
+        # model = kubernetes.client.models.v1_namespace_status.V1NamespaceStatus()  # noqa: E501
         pass
 
 

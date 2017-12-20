@@ -32,7 +32,7 @@ class TestV1beta1APIServiceSpec(unittest.TestCase):
     def testV1beta1APIServiceSpec(self):
         """Test V1beta1APIServiceSpec"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_api_service_spec.V1beta1APIServiceSpec()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_api_service_spec.V1beta1APIServiceSpec()  # noqa: E501
         pass
 
 

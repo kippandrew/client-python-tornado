@@ -32,7 +32,7 @@ class TestV1beta1Ingress(unittest.TestCase):
     def testV1beta1Ingress(self):
         """Test V1beta1Ingress"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_ingress.V1beta1Ingress()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_ingress.V1beta1Ingress()  # noqa: E501
         pass
 
 

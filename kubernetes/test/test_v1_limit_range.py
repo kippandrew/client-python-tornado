@@ -32,7 +32,7 @@ class TestV1LimitRange(unittest.TestCase):
     def testV1LimitRange(self):
         """Test V1LimitRange"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_limit_range.V1LimitRange()  # noqa: E501
+        # model = kubernetes.client.models.v1_limit_range.V1LimitRange()  # noqa: E501
         pass
 
 

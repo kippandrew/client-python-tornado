@@ -32,7 +32,7 @@ class TestV1beta1UserInfo(unittest.TestCase):
     def testV1beta1UserInfo(self):
         """Test V1beta1UserInfo"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_user_info.V1beta1UserInfo()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_user_info.V1beta1UserInfo()  # noqa: E501
         pass
 
 

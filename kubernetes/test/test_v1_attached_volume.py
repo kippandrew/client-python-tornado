@@ -32,7 +32,7 @@ class TestV1AttachedVolume(unittest.TestCase):
     def testV1AttachedVolume(self):
         """Test V1AttachedVolume"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_attached_volume.V1AttachedVolume()  # noqa: E501
+        # model = kubernetes.client.models.v1_attached_volume.V1AttachedVolume()  # noqa: E501
         pass
 
 

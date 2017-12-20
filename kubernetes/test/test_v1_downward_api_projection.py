@@ -32,7 +32,7 @@ class TestV1DownwardAPIProjection(unittest.TestCase):
     def testV1DownwardAPIProjection(self):
         """Test V1DownwardAPIProjection"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_downward_api_projection.V1DownwardAPIProjection()  # noqa: E501
+        # model = kubernetes.client.models.v1_downward_api_projection.V1DownwardAPIProjection()  # noqa: E501
         pass
 
 

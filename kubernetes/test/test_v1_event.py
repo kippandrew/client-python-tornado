@@ -32,7 +32,7 @@ class TestV1Event(unittest.TestCase):
     def testV1Event(self):
         """Test V1Event"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_event.V1Event()  # noqa: E501
+        # model = kubernetes.client.models.v1_event.V1Event()  # noqa: E501
         pass
 
 

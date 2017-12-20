@@ -32,7 +32,7 @@ class TestV1ResourceFieldSelector(unittest.TestCase):
     def testV1ResourceFieldSelector(self):
         """Test V1ResourceFieldSelector"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_resource_field_selector.V1ResourceFieldSelector()  # noqa: E501
+        # model = kubernetes.client.models.v1_resource_field_selector.V1ResourceFieldSelector()  # noqa: E501
         pass
 
 

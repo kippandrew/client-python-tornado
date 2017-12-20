@@ -32,7 +32,7 @@ class TestV1EnvFromSource(unittest.TestCase):
     def testV1EnvFromSource(self):
         """Test V1EnvFromSource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_env_from_source.V1EnvFromSource()  # noqa: E501
+        # model = kubernetes.client.models.v1_env_from_source.V1EnvFromSource()  # noqa: E501
         pass
 
 

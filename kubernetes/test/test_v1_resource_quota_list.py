@@ -32,7 +32,7 @@ class TestV1ResourceQuotaList(unittest.TestCase):
     def testV1ResourceQuotaList(self):
         """Test V1ResourceQuotaList"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_resource_quota_list.V1ResourceQuotaList()  # noqa: E501
+        # model = kubernetes.client.models.v1_resource_quota_list.V1ResourceQuotaList()  # noqa: E501
         pass
 
 

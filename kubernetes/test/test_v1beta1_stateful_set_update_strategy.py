@@ -32,7 +32,7 @@ class TestV1beta1StatefulSetUpdateStrategy(unittest.TestCase):
     def testV1beta1StatefulSetUpdateStrategy(self):
         """Test V1beta1StatefulSetUpdateStrategy"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_stateful_set_update_strategy.V1beta1StatefulSetUpdateStrategy()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_stateful_set_update_strategy.V1beta1StatefulSetUpdateStrategy()  # noqa: E501
         pass
 
 

@@ -32,7 +32,7 @@ class TestV1ISCSIVolumeSource(unittest.TestCase):
     def testV1ISCSIVolumeSource(self):
         """Test V1ISCSIVolumeSource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_iscsi_volume_source.V1ISCSIVolumeSource()  # noqa: E501
+        # model = kubernetes.client.models.v1_iscsi_volume_source.V1ISCSIVolumeSource()  # noqa: E501
         pass
 
 

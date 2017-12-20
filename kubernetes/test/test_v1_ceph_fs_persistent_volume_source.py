@@ -32,7 +32,7 @@ class TestV1CephFSPersistentVolumeSource(unittest.TestCase):
     def testV1CephFSPersistentVolumeSource(self):
         """Test V1CephFSPersistentVolumeSource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_ceph_fs_persistent_volume_source.V1CephFSPersistentVolumeSource()  # noqa: E501
+        # model = kubernetes.client.models.v1_ceph_fs_persistent_volume_source.V1CephFSPersistentVolumeSource()  # noqa: E501
         pass
 
 

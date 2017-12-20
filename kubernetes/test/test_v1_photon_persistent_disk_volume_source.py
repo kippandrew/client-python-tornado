@@ -32,7 +32,7 @@ class TestV1PhotonPersistentDiskVolumeSource(unittest.TestCase):
     def testV1PhotonPersistentDiskVolumeSource(self):
         """Test V1PhotonPersistentDiskVolumeSource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_photon_persistent_disk_volume_source.V1PhotonPersistentDiskVolumeSource()  # noqa: E501
+        # model = kubernetes.client.models.v1_photon_persistent_disk_volume_source.V1PhotonPersistentDiskVolumeSource()  # noqa: E501
         pass
 
 

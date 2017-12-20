@@ -32,7 +32,7 @@ class TestV1beta1RoleRef(unittest.TestCase):
     def testV1beta1RoleRef(self):
         """Test V1beta1RoleRef"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_role_ref.V1beta1RoleRef()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_role_ref.V1beta1RoleRef()  # noqa: E501
         pass
 
 

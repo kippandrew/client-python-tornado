@@ -32,7 +32,7 @@ class TestV1EndpointSubset(unittest.TestCase):
     def testV1EndpointSubset(self):
         """Test V1EndpointSubset"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_endpoint_subset.V1EndpointSubset()  # noqa: E501
+        # model = kubernetes.client.models.v1_endpoint_subset.V1EndpointSubset()  # noqa: E501
         pass
 
 

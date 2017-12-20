@@ -32,7 +32,7 @@ class TestV2beta1ResourceMetricSource(unittest.TestCase):
     def testV2beta1ResourceMetricSource(self):
         """Test V2beta1ResourceMetricSource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v2beta1_resource_metric_source.V2beta1ResourceMetricSource()  # noqa: E501
+        # model = kubernetes.client.models.v2beta1_resource_metric_source.V2beta1ResourceMetricSource()  # noqa: E501
         pass
 
 

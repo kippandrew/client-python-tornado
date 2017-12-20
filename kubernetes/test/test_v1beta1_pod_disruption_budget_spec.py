@@ -32,7 +32,7 @@ class TestV1beta1PodDisruptionBudgetSpec(unittest.TestCase):
     def testV1beta1PodDisruptionBudgetSpec(self):
         """Test V1beta1PodDisruptionBudgetSpec"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_pod_disruption_budget_spec.V1beta1PodDisruptionBudgetSpec()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_pod_disruption_budget_spec.V1beta1PodDisruptionBudgetSpec()  # noqa: E501
         pass
 
 

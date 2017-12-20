@@ -32,7 +32,7 @@ class TestV1SecretReference(unittest.TestCase):
     def testV1SecretReference(self):
         """Test V1SecretReference"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_secret_reference.V1SecretReference()  # noqa: E501
+        # model = kubernetes.client.models.v1_secret_reference.V1SecretReference()  # noqa: E501
         pass
 
 

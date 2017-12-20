@@ -24,7 +24,7 @@ class TestPolicyApi(unittest.TestCase):
     """PolicyApi unit test stubs"""
 
     def setUp(self):
-        self.api = client.api.policy_api.PolicyApi()  # noqa: E501
+        self.api = kubernetes.client.api.policy_api.PolicyApi()  # noqa: E501
 
     def tearDown(self):
         pass

@@ -24,7 +24,7 @@ class TestAutoscalingV1Api(unittest.TestCase):
     """AutoscalingV1Api unit test stubs"""
 
     def setUp(self):
-        self.api = client.api.autoscaling_v1_api.AutoscalingV1Api()  # noqa: E501
+        self.api = kubernetes.client.api.autoscaling_v1_api.AutoscalingV1Api()  # noqa: E501
 
     def tearDown(self):
         pass

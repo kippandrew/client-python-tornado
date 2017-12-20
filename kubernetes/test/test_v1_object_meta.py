@@ -32,7 +32,7 @@ class TestV1ObjectMeta(unittest.TestCase):
     def testV1ObjectMeta(self):
         """Test V1ObjectMeta"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_object_meta.V1ObjectMeta()  # noqa: E501
+        # model = kubernetes.client.models.v1_object_meta.V1ObjectMeta()  # noqa: E501
         pass
 
 

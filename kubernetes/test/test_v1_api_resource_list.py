@@ -32,7 +32,7 @@ class TestV1APIResourceList(unittest.TestCase):
     def testV1APIResourceList(self):
         """Test V1APIResourceList"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_api_resource_list.V1APIResourceList()  # noqa: E501
+        # model = kubernetes.client.models.v1_api_resource_list.V1APIResourceList()  # noqa: E501
         pass
 
 

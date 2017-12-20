@@ -32,7 +32,7 @@ class TestV1beta1CronJobList(unittest.TestCase):
     def testV1beta1CronJobList(self):
         """Test V1beta1CronJobList"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_cron_job_list.V1beta1CronJobList()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_cron_job_list.V1beta1CronJobList()  # noqa: E501
         pass
 
 

@@ -32,7 +32,7 @@ class TestV1LabelSelector(unittest.TestCase):
     def testV1LabelSelector(self):
         """Test V1LabelSelector"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_label_selector.V1LabelSelector()  # noqa: E501
+        # model = kubernetes.client.models.v1_label_selector.V1LabelSelector()  # noqa: E501
         pass
 
 

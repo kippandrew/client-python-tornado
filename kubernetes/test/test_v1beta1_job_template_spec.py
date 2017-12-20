@@ -32,7 +32,7 @@ class TestV1beta1JobTemplateSpec(unittest.TestCase):
     def testV1beta1JobTemplateSpec(self):
         """Test V1beta1JobTemplateSpec"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_job_template_spec.V1beta1JobTemplateSpec()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_job_template_spec.V1beta1JobTemplateSpec()  # noqa: E501
         pass
 
 

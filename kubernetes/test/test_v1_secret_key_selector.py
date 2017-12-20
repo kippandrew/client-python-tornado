@@ -32,7 +32,7 @@ class TestV1SecretKeySelector(unittest.TestCase):
     def testV1SecretKeySelector(self):
         """Test V1SecretKeySelector"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_secret_key_selector.V1SecretKeySelector()  # noqa: E501
+        # model = kubernetes.client.models.v1_secret_key_selector.V1SecretKeySelector()  # noqa: E501
         pass
 
 

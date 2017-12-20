@@ -32,7 +32,7 @@ class TestV1APIGroupList(unittest.TestCase):
     def testV1APIGroupList(self):
         """Test V1APIGroupList"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_api_group_list.V1APIGroupList()  # noqa: E501
+        # model = kubernetes.client.models.v1_api_group_list.V1APIGroupList()  # noqa: E501
         pass
 
 

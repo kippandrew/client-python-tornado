@@ -32,7 +32,7 @@ class TestV1GitRepoVolumeSource(unittest.TestCase):
     def testV1GitRepoVolumeSource(self):
         """Test V1GitRepoVolumeSource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_git_repo_volume_source.V1GitRepoVolumeSource()  # noqa: E501
+        # model = kubernetes.client.models.v1_git_repo_volume_source.V1GitRepoVolumeSource()  # noqa: E501
         pass
 
 

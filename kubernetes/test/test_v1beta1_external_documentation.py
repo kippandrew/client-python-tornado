@@ -32,7 +32,7 @@ class TestV1beta1ExternalDocumentation(unittest.TestCase):
     def testV1beta1ExternalDocumentation(self):
         """Test V1beta1ExternalDocumentation"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_external_documentation.V1beta1ExternalDocumentation()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_external_documentation.V1beta1ExternalDocumentation()  # noqa: E501
         pass
 
 

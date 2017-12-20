@@ -32,7 +32,7 @@ class TestV1beta2ReplicaSetSpec(unittest.TestCase):
     def testV1beta2ReplicaSetSpec(self):
         """Test V1beta2ReplicaSetSpec"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta2_replica_set_spec.V1beta2ReplicaSetSpec()  # noqa: E501
+        # model = kubernetes.client.models.v1beta2_replica_set_spec.V1beta2ReplicaSetSpec()  # noqa: E501
         pass
 
 

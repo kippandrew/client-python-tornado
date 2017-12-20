@@ -32,7 +32,7 @@ class TestV1DownwardAPIVolumeSource(unittest.TestCase):
     def testV1DownwardAPIVolumeSource(self):
         """Test V1DownwardAPIVolumeSource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_downward_api_volume_source.V1DownwardAPIVolumeSource()  # noqa: E501
+        # model = kubernetes.client.models.v1_downward_api_volume_source.V1DownwardAPIVolumeSource()  # noqa: E501
         pass
 
 

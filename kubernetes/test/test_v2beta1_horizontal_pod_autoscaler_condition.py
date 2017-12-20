@@ -32,7 +32,7 @@ class TestV2beta1HorizontalPodAutoscalerCondition(unittest.TestCase):
     def testV2beta1HorizontalPodAutoscalerCondition(self):
         """Test V2beta1HorizontalPodAutoscalerCondition"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v2beta1_horizontal_pod_autoscaler_condition.V2beta1HorizontalPodAutoscalerCondition()  # noqa: E501
+        # model = kubernetes.client.models.v2beta1_horizontal_pod_autoscaler_condition.V2beta1HorizontalPodAutoscalerCondition()  # noqa: E501
         pass
 
 

@@ -32,7 +32,7 @@ class TestV1beta1HTTPIngressRuleValue(unittest.TestCase):
     def testV1beta1HTTPIngressRuleValue(self):
         """Test V1beta1HTTPIngressRuleValue"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_http_ingress_rule_value.V1beta1HTTPIngressRuleValue()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_http_ingress_rule_value.V1beta1HTTPIngressRuleValue()  # noqa: E501
         pass
 
 

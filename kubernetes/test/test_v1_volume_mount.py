@@ -32,7 +32,7 @@ class TestV1VolumeMount(unittest.TestCase):
     def testV1VolumeMount(self):
         """Test V1VolumeMount"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_volume_mount.V1VolumeMount()  # noqa: E501
+        # model = kubernetes.client.models.v1_volume_mount.V1VolumeMount()  # noqa: E501
         pass
 
 

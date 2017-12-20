@@ -32,7 +32,7 @@ class TestV1ScaleIOVolumeSource(unittest.TestCase):
     def testV1ScaleIOVolumeSource(self):
         """Test V1ScaleIOVolumeSource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_scale_io_volume_source.V1ScaleIOVolumeSource()  # noqa: E501
+        # model = kubernetes.client.models.v1_scale_io_volume_source.V1ScaleIOVolumeSource()  # noqa: E501
         pass
 
 

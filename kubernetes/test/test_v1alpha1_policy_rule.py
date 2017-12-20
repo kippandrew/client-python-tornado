@@ -32,7 +32,7 @@ class TestV1alpha1PolicyRule(unittest.TestCase):
     def testV1alpha1PolicyRule(self):
         """Test V1alpha1PolicyRule"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1alpha1_policy_rule.V1alpha1PolicyRule()  # noqa: E501
+        # model = kubernetes.client.models.v1alpha1_policy_rule.V1alpha1PolicyRule()  # noqa: E501
         pass
 
 

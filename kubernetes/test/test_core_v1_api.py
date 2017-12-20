@@ -24,7 +24,7 @@ class TestCoreV1Api(unittest.TestCase):
     """CoreV1Api unit test stubs"""
 
     def setUp(self):
-        self.api = client.api.core_v1_api.CoreV1Api()  # noqa: E501
+        self.api = kubernetes.client.api.core_v1_api.CoreV1Api()  # noqa: E501
 
     def tearDown(self):
         pass

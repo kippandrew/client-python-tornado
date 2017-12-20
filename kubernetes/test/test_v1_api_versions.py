@@ -32,7 +32,7 @@ class TestV1APIVersions(unittest.TestCase):
     def testV1APIVersions(self):
         """Test V1APIVersions"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_api_versions.V1APIVersions()  # noqa: E501
+        # model = kubernetes.client.models.v1_api_versions.V1APIVersions()  # noqa: E501
         pass
 
 

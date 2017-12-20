@@ -32,7 +32,7 @@ class TestV1PreferredSchedulingTerm(unittest.TestCase):
     def testV1PreferredSchedulingTerm(self):
         """Test V1PreferredSchedulingTerm"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_preferred_scheduling_term.V1PreferredSchedulingTerm()  # noqa: E501
+        # model = kubernetes.client.models.v1_preferred_scheduling_term.V1PreferredSchedulingTerm()  # noqa: E501
         pass
 
 

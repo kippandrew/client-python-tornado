@@ -32,7 +32,7 @@ class TestV1beta1DaemonSetUpdateStrategy(unittest.TestCase):
     def testV1beta1DaemonSetUpdateStrategy(self):
         """Test V1beta1DaemonSetUpdateStrategy"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_daemon_set_update_strategy.V1beta1DaemonSetUpdateStrategy()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_daemon_set_update_strategy.V1beta1DaemonSetUpdateStrategy()  # noqa: E501
         pass
 
 

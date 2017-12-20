@@ -32,7 +32,7 @@ class TestV1NonResourceAttributes(unittest.TestCase):
     def testV1NonResourceAttributes(self):
         """Test V1NonResourceAttributes"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_non_resource_attributes.V1NonResourceAttributes()  # noqa: E501
+        # model = kubernetes.client.models.v1_non_resource_attributes.V1NonResourceAttributes()  # noqa: E501
         pass
 
 

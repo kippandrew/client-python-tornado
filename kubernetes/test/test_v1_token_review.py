@@ -32,7 +32,7 @@ class TestV1TokenReview(unittest.TestCase):
     def testV1TokenReview(self):
         """Test V1TokenReview"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_token_review.V1TokenReview()  # noqa: E501
+        # model = kubernetes.client.models.v1_token_review.V1TokenReview()  # noqa: E501
         pass
 
 

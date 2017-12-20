@@ -32,7 +32,7 @@ class TestV1ContainerState(unittest.TestCase):
     def testV1ContainerState(self):
         """Test V1ContainerState"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_container_state.V1ContainerState()  # noqa: E501
+        # model = kubernetes.client.models.v1_container_state.V1ContainerState()  # noqa: E501
         pass
 
 

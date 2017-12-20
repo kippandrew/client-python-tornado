@@ -32,7 +32,7 @@ class TestV1LoadBalancerStatus(unittest.TestCase):
     def testV1LoadBalancerStatus(self):
         """Test V1LoadBalancerStatus"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_load_balancer_status.V1LoadBalancerStatus()  # noqa: E501
+        # model = kubernetes.client.models.v1_load_balancer_status.V1LoadBalancerStatus()  # noqa: E501
         pass
 
 

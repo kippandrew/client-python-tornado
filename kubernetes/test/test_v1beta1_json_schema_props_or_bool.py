@@ -32,7 +32,7 @@ class TestV1beta1JSONSchemaPropsOrBool(unittest.TestCase):
     def testV1beta1JSONSchemaPropsOrBool(self):
         """Test V1beta1JSONSchemaPropsOrBool"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_json_schema_props_or_bool.V1beta1JSONSchemaPropsOrBool()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_json_schema_props_or_bool.V1beta1JSONSchemaPropsOrBool()  # noqa: E501
         pass
 
 

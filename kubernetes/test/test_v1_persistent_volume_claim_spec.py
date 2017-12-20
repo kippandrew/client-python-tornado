@@ -32,7 +32,7 @@ class TestV1PersistentVolumeClaimSpec(unittest.TestCase):
     def testV1PersistentVolumeClaimSpec(self):
         """Test V1PersistentVolumeClaimSpec"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_persistent_volume_claim_spec.V1PersistentVolumeClaimSpec()  # noqa: E501
+        # model = kubernetes.client.models.v1_persistent_volume_claim_spec.V1PersistentVolumeClaimSpec()  # noqa: E501
         pass
 
 

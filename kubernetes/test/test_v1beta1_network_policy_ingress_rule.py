@@ -32,7 +32,7 @@ class TestV1beta1NetworkPolicyIngressRule(unittest.TestCase):
     def testV1beta1NetworkPolicyIngressRule(self):
         """Test V1beta1NetworkPolicyIngressRule"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_network_policy_ingress_rule.V1beta1NetworkPolicyIngressRule()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_network_policy_ingress_rule.V1beta1NetworkPolicyIngressRule()  # noqa: E501
         pass
 
 

@@ -32,7 +32,7 @@ class TestV1HostPathVolumeSource(unittest.TestCase):
     def testV1HostPathVolumeSource(self):
         """Test V1HostPathVolumeSource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_host_path_volume_source.V1HostPathVolumeSource()  # noqa: E501
+        # model = kubernetes.client.models.v1_host_path_volume_source.V1HostPathVolumeSource()  # noqa: E501
         pass
 
 

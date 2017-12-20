@@ -32,7 +32,7 @@ class TestV1PodList(unittest.TestCase):
     def testV1PodList(self):
         """Test V1PodList"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_pod_list.V1PodList()  # noqa: E501
+        # model = kubernetes.client.models.v1_pod_list.V1PodList()  # noqa: E501
         pass
 
 

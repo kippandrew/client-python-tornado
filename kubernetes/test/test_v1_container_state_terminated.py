@@ -32,7 +32,7 @@ class TestV1ContainerStateTerminated(unittest.TestCase):
     def testV1ContainerStateTerminated(self):
         """Test V1ContainerStateTerminated"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_container_state_terminated.V1ContainerStateTerminated()  # noqa: E501
+        # model = kubernetes.client.models.v1_container_state_terminated.V1ContainerStateTerminated()  # noqa: E501
         pass
 
 

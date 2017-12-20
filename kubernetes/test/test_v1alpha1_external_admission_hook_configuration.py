@@ -32,7 +32,7 @@ class TestV1alpha1ExternalAdmissionHookConfiguration(unittest.TestCase):
     def testV1alpha1ExternalAdmissionHookConfiguration(self):
         """Test V1alpha1ExternalAdmissionHookConfiguration"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1alpha1_external_admission_hook_configuration.V1alpha1ExternalAdmissionHookConfiguration()  # noqa: E501
+        # model = kubernetes.client.models.v1alpha1_external_admission_hook_configuration.V1alpha1ExternalAdmissionHookConfiguration()  # noqa: E501
         pass
 
 

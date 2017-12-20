@@ -32,7 +32,7 @@ class TestV1Lifecycle(unittest.TestCase):
     def testV1Lifecycle(self):
         """Test V1Lifecycle"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_lifecycle.V1Lifecycle()  # noqa: E501
+        # model = kubernetes.client.models.v1_lifecycle.V1Lifecycle()  # noqa: E501
         pass
 
 

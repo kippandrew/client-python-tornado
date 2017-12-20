@@ -32,7 +32,7 @@ class TestV1WeightedPodAffinityTerm(unittest.TestCase):
     def testV1WeightedPodAffinityTerm(self):
         """Test V1WeightedPodAffinityTerm"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_weighted_pod_affinity_term.V1WeightedPodAffinityTerm()  # noqa: E501
+        # model = kubernetes.client.models.v1_weighted_pod_affinity_term.V1WeightedPodAffinityTerm()  # noqa: E501
         pass
 
 

@@ -32,7 +32,7 @@ class TestV1alpha1PriorityClassList(unittest.TestCase):
     def testV1alpha1PriorityClassList(self):
         """Test V1alpha1PriorityClassList"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1alpha1_priority_class_list.V1alpha1PriorityClassList()  # noqa: E501
+        # model = kubernetes.client.models.v1alpha1_priority_class_list.V1alpha1PriorityClassList()  # noqa: E501
         pass
 
 

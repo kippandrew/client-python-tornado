@@ -32,7 +32,7 @@ class TestV1beta2ControllerRevisionList(unittest.TestCase):
     def testV1beta2ControllerRevisionList(self):
         """Test V1beta2ControllerRevisionList"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta2_controller_revision_list.V1beta2ControllerRevisionList()  # noqa: E501
+        # model = kubernetes.client.models.v1beta2_controller_revision_list.V1beta2ControllerRevisionList()  # noqa: E501
         pass
 
 

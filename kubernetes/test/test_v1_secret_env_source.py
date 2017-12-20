@@ -32,7 +32,7 @@ class TestV1SecretEnvSource(unittest.TestCase):
     def testV1SecretEnvSource(self):
         """Test V1SecretEnvSource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_secret_env_source.V1SecretEnvSource()  # noqa: E501
+        # model = kubernetes.client.models.v1_secret_env_source.V1SecretEnvSource()  # noqa: E501
         pass
 
 

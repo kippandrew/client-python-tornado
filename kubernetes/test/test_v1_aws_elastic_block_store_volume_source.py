@@ -32,7 +32,7 @@ class TestV1AWSElasticBlockStoreVolumeSource(unittest.TestCase):
     def testV1AWSElasticBlockStoreVolumeSource(self):
         """Test V1AWSElasticBlockStoreVolumeSource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_aws_elastic_block_store_volume_source.V1AWSElasticBlockStoreVolumeSource()  # noqa: E501
+        # model = kubernetes.client.models.v1_aws_elastic_block_store_volume_source.V1AWSElasticBlockStoreVolumeSource()  # noqa: E501
         pass
 
 

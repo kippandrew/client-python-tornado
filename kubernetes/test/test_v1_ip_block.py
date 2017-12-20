@@ -32,7 +32,7 @@ class TestV1IPBlock(unittest.TestCase):
     def testV1IPBlock(self):
         """Test V1IPBlock"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_ip_block.V1IPBlock()  # noqa: E501
+        # model = kubernetes.client.models.v1_ip_block.V1IPBlock()  # noqa: E501
         pass
 
 

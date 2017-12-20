@@ -32,7 +32,7 @@ class TestV1beta1IDRange(unittest.TestCase):
     def testV1beta1IDRange(self):
         """Test V1beta1IDRange"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_id_range.V1beta1IDRange()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_id_range.V1beta1IDRange()  # noqa: E501
         pass
 
 

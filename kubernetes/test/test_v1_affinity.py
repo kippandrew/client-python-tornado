@@ -32,7 +32,7 @@ class TestV1Affinity(unittest.TestCase):
     def testV1Affinity(self):
         """Test V1Affinity"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_affinity.V1Affinity()  # noqa: E501
+        # model = kubernetes.client.models.v1_affinity.V1Affinity()  # noqa: E501
         pass
 
 

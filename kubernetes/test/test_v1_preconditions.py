@@ -32,7 +32,7 @@ class TestV1Preconditions(unittest.TestCase):
     def testV1Preconditions(self):
         """Test V1Preconditions"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_preconditions.V1Preconditions()  # noqa: E501
+        # model = kubernetes.client.models.v1_preconditions.V1Preconditions()  # noqa: E501
         pass
 
 

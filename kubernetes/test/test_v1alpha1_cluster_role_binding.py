@@ -32,7 +32,7 @@ class TestV1alpha1ClusterRoleBinding(unittest.TestCase):
     def testV1alpha1ClusterRoleBinding(self):
         """Test V1alpha1ClusterRoleBinding"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1alpha1_cluster_role_binding.V1alpha1ClusterRoleBinding()  # noqa: E501
+        # model = kubernetes.client.models.v1alpha1_cluster_role_binding.V1alpha1ClusterRoleBinding()  # noqa: E501
         pass
 
 

@@ -32,7 +32,7 @@ class TestV1ReplicationControllerStatus(unittest.TestCase):
     def testV1ReplicationControllerStatus(self):
         """Test V1ReplicationControllerStatus"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_replication_controller_status.V1ReplicationControllerStatus()  # noqa: E501
+        # model = kubernetes.client.models.v1_replication_controller_status.V1ReplicationControllerStatus()  # noqa: E501
         pass
 
 

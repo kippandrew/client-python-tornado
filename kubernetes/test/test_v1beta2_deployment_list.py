@@ -32,7 +32,7 @@ class TestV1beta2DeploymentList(unittest.TestCase):
     def testV1beta2DeploymentList(self):
         """Test V1beta2DeploymentList"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta2_deployment_list.V1beta2DeploymentList()  # noqa: E501
+        # model = kubernetes.client.models.v1beta2_deployment_list.V1beta2DeploymentList()  # noqa: E501
         pass
 
 

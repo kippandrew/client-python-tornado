@@ -32,7 +32,7 @@ class TestV1ConfigMapKeySelector(unittest.TestCase):
     def testV1ConfigMapKeySelector(self):
         """Test V1ConfigMapKeySelector"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_config_map_key_selector.V1ConfigMapKeySelector()  # noqa: E501
+        # model = kubernetes.client.models.v1_config_map_key_selector.V1ConfigMapKeySelector()  # noqa: E501
         pass
 
 

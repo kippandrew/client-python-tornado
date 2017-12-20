@@ -32,7 +32,7 @@ class TestRuntimeRawExtension(unittest.TestCase):
     def testRuntimeRawExtension(self):
         """Test RuntimeRawExtension"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.runtime_raw_extension.RuntimeRawExtension()  # noqa: E501
+        # model = kubernetes.client.models.runtime_raw_extension.RuntimeRawExtension()  # noqa: E501
         pass
 
 

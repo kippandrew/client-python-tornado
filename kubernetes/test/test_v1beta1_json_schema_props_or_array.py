@@ -32,7 +32,7 @@ class TestV1beta1JSONSchemaPropsOrArray(unittest.TestCase):
     def testV1beta1JSONSchemaPropsOrArray(self):
         """Test V1beta1JSONSchemaPropsOrArray"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_json_schema_props_or_array.V1beta1JSONSchemaPropsOrArray()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_json_schema_props_or_array.V1beta1JSONSchemaPropsOrArray()  # noqa: E501
         pass
 
 

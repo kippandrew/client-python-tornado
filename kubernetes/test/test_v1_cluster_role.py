@@ -32,7 +32,7 @@ class TestV1ClusterRole(unittest.TestCase):
     def testV1ClusterRole(self):
         """Test V1ClusterRole"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_cluster_role.V1ClusterRole()  # noqa: E501
+        # model = kubernetes.client.models.v1_cluster_role.V1ClusterRole()  # noqa: E501
         pass
 
 

@@ -32,7 +32,7 @@ class TestV1GCEPersistentDiskVolumeSource(unittest.TestCase):
     def testV1GCEPersistentDiskVolumeSource(self):
         """Test V1GCEPersistentDiskVolumeSource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_gce_persistent_disk_volume_source.V1GCEPersistentDiskVolumeSource()  # noqa: E501
+        # model = kubernetes.client.models.v1_gce_persistent_disk_volume_source.V1GCEPersistentDiskVolumeSource()  # noqa: E501
         pass
 
 

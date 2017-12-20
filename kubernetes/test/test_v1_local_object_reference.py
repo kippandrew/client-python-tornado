@@ -32,7 +32,7 @@ class TestV1LocalObjectReference(unittest.TestCase):
     def testV1LocalObjectReference(self):
         """Test V1LocalObjectReference"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_local_object_reference.V1LocalObjectReference()  # noqa: E501
+        # model = kubernetes.client.models.v1_local_object_reference.V1LocalObjectReference()  # noqa: E501
         pass
 
 

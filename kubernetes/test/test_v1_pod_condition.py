@@ -32,7 +32,7 @@ class TestV1PodCondition(unittest.TestCase):
     def testV1PodCondition(self):
         """Test V1PodCondition"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_pod_condition.V1PodCondition()  # noqa: E501
+        # model = kubernetes.client.models.v1_pod_condition.V1PodCondition()  # noqa: E501
         pass
 
 

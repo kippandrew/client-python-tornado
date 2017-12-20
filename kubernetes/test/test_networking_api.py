@@ -24,7 +24,7 @@ class TestNetworkingApi(unittest.TestCase):
     """NetworkingApi unit test stubs"""
 
     def setUp(self):
-        self.api = client.api.networking_api.NetworkingApi()  # noqa: E501
+        self.api = kubernetes.client.api.networking_api.NetworkingApi()  # noqa: E501
 
     def tearDown(self):
         pass

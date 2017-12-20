@@ -32,7 +32,7 @@ class TestV1GlusterfsVolumeSource(unittest.TestCase):
     def testV1GlusterfsVolumeSource(self):
         """Test V1GlusterfsVolumeSource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_glusterfs_volume_source.V1GlusterfsVolumeSource()  # noqa: E501
+        # model = kubernetes.client.models.v1_glusterfs_volume_source.V1GlusterfsVolumeSource()  # noqa: E501
         pass
 
 

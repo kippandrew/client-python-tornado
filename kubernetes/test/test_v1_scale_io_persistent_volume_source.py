@@ -32,7 +32,7 @@ class TestV1ScaleIOPersistentVolumeSource(unittest.TestCase):
     def testV1ScaleIOPersistentVolumeSource(self):
         """Test V1ScaleIOPersistentVolumeSource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_scale_io_persistent_volume_source.V1ScaleIOPersistentVolumeSource()  # noqa: E501
+        # model = kubernetes.client.models.v1_scale_io_persistent_volume_source.V1ScaleIOPersistentVolumeSource()  # noqa: E501
         pass
 
 

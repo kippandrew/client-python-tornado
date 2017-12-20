@@ -32,7 +32,7 @@ class TestV1StorageOSVolumeSource(unittest.TestCase):
     def testV1StorageOSVolumeSource(self):
         """Test V1StorageOSVolumeSource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_storage_os_volume_source.V1StorageOSVolumeSource()  # noqa: E501
+        # model = kubernetes.client.models.v1_storage_os_volume_source.V1StorageOSVolumeSource()  # noqa: E501
         pass
 
 

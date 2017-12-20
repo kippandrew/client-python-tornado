@@ -32,7 +32,7 @@ class TestV1ProjectedVolumeSource(unittest.TestCase):
     def testV1ProjectedVolumeSource(self):
         """Test V1ProjectedVolumeSource"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_projected_volume_source.V1ProjectedVolumeSource()  # noqa: E501
+        # model = kubernetes.client.models.v1_projected_volume_source.V1ProjectedVolumeSource()  # noqa: E501
         pass
 
 

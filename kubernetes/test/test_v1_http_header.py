@@ -32,7 +32,7 @@ class TestV1HTTPHeader(unittest.TestCase):
     def testV1HTTPHeader(self):
         """Test V1HTTPHeader"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_http_header.V1HTTPHeader()  # noqa: E501
+        # model = kubernetes.client.models.v1_http_header.V1HTTPHeader()  # noqa: E501
         pass
 
 

@@ -32,7 +32,7 @@ class TestV1NodeSelectorRequirement(unittest.TestCase):
     def testV1NodeSelectorRequirement(self):
         """Test V1NodeSelectorRequirement"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_node_selector_requirement.V1NodeSelectorRequirement()  # noqa: E501
+        # model = kubernetes.client.models.v1_node_selector_requirement.V1NodeSelectorRequirement()  # noqa: E501
         pass
 
 

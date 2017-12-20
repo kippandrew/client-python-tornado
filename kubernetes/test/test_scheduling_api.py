@@ -24,7 +24,7 @@ class TestSchedulingApi(unittest.TestCase):
     """SchedulingApi unit test stubs"""
 
     def setUp(self):
-        self.api = client.api.scheduling_api.SchedulingApi()  # noqa: E501
+        self.api = kubernetes.client.api.scheduling_api.SchedulingApi()  # noqa: E501
 
     def tearDown(self):
         pass

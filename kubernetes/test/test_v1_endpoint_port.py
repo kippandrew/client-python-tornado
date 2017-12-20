@@ -32,7 +32,7 @@ class TestV1EndpointPort(unittest.TestCase):
     def testV1EndpointPort(self):
         """Test V1EndpointPort"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1_endpoint_port.V1EndpointPort()  # noqa: E501
+        # model = kubernetes.client.models.v1_endpoint_port.V1EndpointPort()  # noqa: E501
         pass
 
 

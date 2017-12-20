@@ -32,7 +32,7 @@ class TestV1beta1AllowedHostPath(unittest.TestCase):
     def testV1beta1AllowedHostPath(self):
         """Test V1beta1AllowedHostPath"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = client.models.v1beta1_allowed_host_path.V1beta1AllowedHostPath()  # noqa: E501
+        # model = kubernetes.client.models.v1beta1_allowed_host_path.V1beta1AllowedHostPath()  # noqa: E501
         pass
 
 
