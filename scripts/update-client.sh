@@ -29,7 +29,7 @@ popd > /dev/null
 
 export KUBERNETES_BRANCH="release-1.8"
 
-export CLIENT_ROOT="${SCRIPT_ROOT}/../kubernetes"
+export CLIENT_ROOT="${SCRIPT_ROOT}/../kubernetes/client"
 
 export CLIENT_LANGUAGE="python-tornado"
 
@@ -53,19 +53,29 @@ else
     echo ">>> Reusing gen repo at ${GEN_ROOT}"
 fi
 
+export GEN_OUTPUT="${SCRIPT_ROOT}/output"
+mkdir -p ${GEN_OUTPUT}
+
+pushd "${GEN_OUTPUT}" > /dev/null
+GEN_OUTPUT=`pwd`
+popd > /dev/null
+
 source "${GEN_ROOT}/openapi/client-generator.sh"
-PACKAGE_NAME="client" kubeclient::generator::generate_client "${CLIENT_ROOT}"
+PACKAGE_NAME="kubernetes.client" kubeclient::generator::generate_client "${GEN_OUTPUT}"
 
 echo ">>> Patching generated code..."
 # fix imports
-find "${CLIENT_ROOT}" -type f -name \*.py -exec gsed -i 's/from client/from kubernetes.client/g' {} +
-find "${CLIENT_ROOT}" -type f -name \*.py -exec gsed -i 's/import client/import kubernetes.client/g' {} +
-find "${CLIENT_ROOT}" -type f -name \*.md -exec gsed -i 's/\bclient/kubernetes.client/g' {} +
-find "${CLIENT_ROOT}" -type f -name \*.md -exec gsed -i 's/kubernetes.client-python/client-python/g' {} +
+#find "${CLIENT_ROOT}" -type f -name \*.py -exec gsed -i 's/from client/from kubernetes.client/g' {} +
+#find "${CLIENT_ROOT}" -type f -name \*.py -exec gsed -i 's/import client/import kubernetes.client/g' {} +
+#find "${CLIENT_ROOT}" -type f -name \*.md -exec gsed -i 's/\bclient/kubernetes.client/g' {} +
+#find "${CLIENT_ROOT}" -type f -name \*.md -exec gsed -i 's/kubernetes.client-python/client-python/g' {} +
 echo ">>> Done"
 
+cp -r ${GEN_OUTPUT}/kubernetes/client/* ${CLIENT_ROOT}/
+cp -r ${GEN_OUTPUT}/kubernetes.client/* ${CLIENT_ROOT}/
+
 echo ">>> Updating version information..."
-gsed -i "s/^__version__ = .*/__version__ = \\\"${CLIENT_VERSION}\\\"/g" "${CLIENT_ROOT}/../setup.py"
+gsed -i "s/^__version__ = .*/__version__ = \\\"${CLIENT_VERSION}\\\"/g" "${CLIENT_ROOT}/../../setup.py"
 echo ">>> Done"
 
 # This is a terrible hack:
