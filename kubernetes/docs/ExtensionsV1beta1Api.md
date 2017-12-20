@@ -1,4 +1,4 @@
-# client.ExtensionsV1beta1Api
+# kubernetes.client.ExtensionsV1beta1Api
 
 All URIs are relative to *https://localhost*
 
@@ -87,20 +87,20 @@ create a DaemonSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.V1beta1DaemonSet() # V1beta1DaemonSet | 
+body = kubernetes.client.V1beta1DaemonSet() # V1beta1DaemonSet | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
@@ -144,20 +144,20 @@ create a Deployment
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.ExtensionsV1beta1Deployment() # ExtensionsV1beta1Deployment | 
+body = kubernetes.client.ExtensionsV1beta1Deployment() # ExtensionsV1beta1Deployment | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
@@ -201,21 +201,21 @@ create rollback of a Deployment
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the DeploymentRollback
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.ExtensionsV1beta1DeploymentRollback() # ExtensionsV1beta1DeploymentRollback | 
+body = kubernetes.client.ExtensionsV1beta1DeploymentRollback() # ExtensionsV1beta1DeploymentRollback | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
@@ -260,20 +260,20 @@ create an Ingress
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.V1beta1Ingress() # V1beta1Ingress | 
+body = kubernetes.client.V1beta1Ingress() # V1beta1Ingress | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
@@ -317,20 +317,20 @@ create a NetworkPolicy
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.V1beta1NetworkPolicy() # V1beta1NetworkPolicy | 
+body = kubernetes.client.V1beta1NetworkPolicy() # V1beta1NetworkPolicy | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
@@ -374,20 +374,20 @@ create a ReplicaSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.V1beta1ReplicaSet() # V1beta1ReplicaSet | 
+body = kubernetes.client.V1beta1ReplicaSet() # V1beta1ReplicaSet | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
@@ -431,19 +431,19 @@ create a PodSecurityPolicy
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
-body = client.V1beta1PodSecurityPolicy() # V1beta1PodSecurityPolicy | 
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
+body = kubernetes.client.V1beta1PodSecurityPolicy() # V1beta1PodSecurityPolicy | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
@@ -486,18 +486,18 @@ delete collection of DaemonSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 _continue = '_continue_example' # str | The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server the server will respond with a 410 ResourceExpired error indicating the client must restart their list without the continue field. This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications. (optional)
@@ -557,18 +557,18 @@ delete collection of Deployment
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 _continue = '_continue_example' # str | The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server the server will respond with a 410 ResourceExpired error indicating the client must restart their list without the continue field. This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications. (optional)
@@ -628,18 +628,18 @@ delete collection of Ingress
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 _continue = '_continue_example' # str | The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server the server will respond with a 410 ResourceExpired error indicating the client must restart their list without the continue field. This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications. (optional)
@@ -699,18 +699,18 @@ delete collection of NetworkPolicy
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 _continue = '_continue_example' # str | The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server the server will respond with a 410 ResourceExpired error indicating the client must restart their list without the continue field. This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications. (optional)
@@ -770,18 +770,18 @@ delete collection of ReplicaSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 _continue = '_continue_example' # str | The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server the server will respond with a 410 ResourceExpired error indicating the client must restart their list without the continue field. This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications. (optional)
@@ -841,18 +841,18 @@ delete collection of PodSecurityPolicy
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 _continue = '_continue_example' # str | The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server the server will respond with a 410 ResourceExpired error indicating the client must restart their list without the continue field. This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications. (optional)
 field_selector = 'field_selector_example' # str | A selector to restrict the list of returned objects by their fields. Defaults to everything. (optional)
@@ -910,21 +910,21 @@ delete a DaemonSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the DaemonSet
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.V1DeleteOptions() # V1DeleteOptions | 
+body = kubernetes.client.V1DeleteOptions() # V1DeleteOptions | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 grace_period_seconds = 56 # int | The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately. (optional)
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
@@ -975,21 +975,21 @@ delete a Deployment
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Deployment
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.V1DeleteOptions() # V1DeleteOptions | 
+body = kubernetes.client.V1DeleteOptions() # V1DeleteOptions | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 grace_period_seconds = 56 # int | The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately. (optional)
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
@@ -1040,21 +1040,21 @@ delete an Ingress
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Ingress
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.V1DeleteOptions() # V1DeleteOptions | 
+body = kubernetes.client.V1DeleteOptions() # V1DeleteOptions | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 grace_period_seconds = 56 # int | The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately. (optional)
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
@@ -1105,21 +1105,21 @@ delete a NetworkPolicy
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the NetworkPolicy
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.V1DeleteOptions() # V1DeleteOptions | 
+body = kubernetes.client.V1DeleteOptions() # V1DeleteOptions | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 grace_period_seconds = 56 # int | The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately. (optional)
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
@@ -1170,21 +1170,21 @@ delete a ReplicaSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the ReplicaSet
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.V1DeleteOptions() # V1DeleteOptions | 
+body = kubernetes.client.V1DeleteOptions() # V1DeleteOptions | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 grace_period_seconds = 56 # int | The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately. (optional)
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
@@ -1235,20 +1235,20 @@ delete a PodSecurityPolicy
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the PodSecurityPolicy
-body = client.V1DeleteOptions() # V1DeleteOptions | 
+body = kubernetes.client.V1DeleteOptions() # V1DeleteOptions | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 grace_period_seconds = 56 # int | The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately. (optional)
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
@@ -1298,18 +1298,18 @@ get available resources
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 
 try:
     api_response = api_instance.get_api_resources()
@@ -1347,18 +1347,18 @@ list or watch objects of kind DaemonSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 _continue = '_continue_example' # str | The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server the server will respond with a 410 ResourceExpired error indicating the client must restart their list without the continue field. This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications. (optional)
 field_selector = 'field_selector_example' # str | A selector to restrict the list of returned objects by their fields. Defaults to everything. (optional)
 include_uninitialized = true # bool | If true, partially initialized resources are included in the response. (optional)
@@ -1416,18 +1416,18 @@ list or watch objects of kind Deployment
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 _continue = '_continue_example' # str | The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server the server will respond with a 410 ResourceExpired error indicating the client must restart their list without the continue field. This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications. (optional)
 field_selector = 'field_selector_example' # str | A selector to restrict the list of returned objects by their fields. Defaults to everything. (optional)
 include_uninitialized = true # bool | If true, partially initialized resources are included in the response. (optional)
@@ -1485,18 +1485,18 @@ list or watch objects of kind Ingress
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 _continue = '_continue_example' # str | The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server the server will respond with a 410 ResourceExpired error indicating the client must restart their list without the continue field. This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications. (optional)
 field_selector = 'field_selector_example' # str | A selector to restrict the list of returned objects by their fields. Defaults to everything. (optional)
 include_uninitialized = true # bool | If true, partially initialized resources are included in the response. (optional)
@@ -1554,18 +1554,18 @@ list or watch objects of kind DaemonSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 _continue = '_continue_example' # str | The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server the server will respond with a 410 ResourceExpired error indicating the client must restart their list without the continue field. This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications. (optional)
@@ -1625,18 +1625,18 @@ list or watch objects of kind Deployment
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 _continue = '_continue_example' # str | The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server the server will respond with a 410 ResourceExpired error indicating the client must restart their list without the continue field. This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications. (optional)
@@ -1696,18 +1696,18 @@ list or watch objects of kind Ingress
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 _continue = '_continue_example' # str | The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server the server will respond with a 410 ResourceExpired error indicating the client must restart their list without the continue field. This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications. (optional)
@@ -1767,18 +1767,18 @@ list or watch objects of kind NetworkPolicy
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 _continue = '_continue_example' # str | The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server the server will respond with a 410 ResourceExpired error indicating the client must restart their list without the continue field. This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications. (optional)
@@ -1838,18 +1838,18 @@ list or watch objects of kind ReplicaSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 _continue = '_continue_example' # str | The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server the server will respond with a 410 ResourceExpired error indicating the client must restart their list without the continue field. This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications. (optional)
@@ -1909,18 +1909,18 @@ list or watch objects of kind NetworkPolicy
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 _continue = '_continue_example' # str | The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server the server will respond with a 410 ResourceExpired error indicating the client must restart their list without the continue field. This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications. (optional)
 field_selector = 'field_selector_example' # str | A selector to restrict the list of returned objects by their fields. Defaults to everything. (optional)
 include_uninitialized = true # bool | If true, partially initialized resources are included in the response. (optional)
@@ -1978,18 +1978,18 @@ list or watch objects of kind PodSecurityPolicy
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 _continue = '_continue_example' # str | The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server the server will respond with a 410 ResourceExpired error indicating the client must restart their list without the continue field. This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications. (optional)
 field_selector = 'field_selector_example' # str | A selector to restrict the list of returned objects by their fields. Defaults to everything. (optional)
@@ -2047,18 +2047,18 @@ list or watch objects of kind ReplicaSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 _continue = '_continue_example' # str | The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server the server will respond with a 410 ResourceExpired error indicating the client must restart their list without the continue field. This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications. (optional)
 field_selector = 'field_selector_example' # str | A selector to restrict the list of returned objects by their fields. Defaults to everything. (optional)
 include_uninitialized = true # bool | If true, partially initialized resources are included in the response. (optional)
@@ -2116,18 +2116,18 @@ partially update the specified DaemonSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the DaemonSet
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 body = NULL # object | 
@@ -2175,18 +2175,18 @@ partially update status of the specified DaemonSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the DaemonSet
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 body = NULL # object | 
@@ -2234,18 +2234,18 @@ partially update the specified Deployment
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Deployment
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 body = NULL # object | 
@@ -2293,18 +2293,18 @@ partially update scale of the specified Deployment
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Scale
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 body = NULL # object | 
@@ -2352,18 +2352,18 @@ partially update status of the specified Deployment
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Deployment
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 body = NULL # object | 
@@ -2411,18 +2411,18 @@ partially update the specified Ingress
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Ingress
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 body = NULL # object | 
@@ -2470,18 +2470,18 @@ partially update status of the specified Ingress
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Ingress
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 body = NULL # object | 
@@ -2529,18 +2529,18 @@ partially update the specified NetworkPolicy
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the NetworkPolicy
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 body = NULL # object | 
@@ -2588,18 +2588,18 @@ partially update the specified ReplicaSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the ReplicaSet
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 body = NULL # object | 
@@ -2647,18 +2647,18 @@ partially update scale of the specified ReplicaSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Scale
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 body = NULL # object | 
@@ -2706,18 +2706,18 @@ partially update status of the specified ReplicaSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the ReplicaSet
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 body = NULL # object | 
@@ -2765,18 +2765,18 @@ partially update scale of the specified ReplicationControllerDummy
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Scale
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 body = NULL # object | 
@@ -2824,18 +2824,18 @@ partially update the specified PodSecurityPolicy
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the PodSecurityPolicy
 body = NULL # object | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
@@ -2881,18 +2881,18 @@ read the specified DaemonSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the DaemonSet
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
@@ -2942,18 +2942,18 @@ read status of the specified DaemonSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the DaemonSet
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
@@ -2999,18 +2999,18 @@ read the specified Deployment
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Deployment
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
@@ -3060,18 +3060,18 @@ read scale of the specified Deployment
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Scale
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
@@ -3117,18 +3117,18 @@ read status of the specified Deployment
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Deployment
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
@@ -3174,18 +3174,18 @@ read the specified Ingress
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Ingress
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
@@ -3235,18 +3235,18 @@ read status of the specified Ingress
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Ingress
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
@@ -3292,18 +3292,18 @@ read the specified NetworkPolicy
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the NetworkPolicy
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
@@ -3353,18 +3353,18 @@ read the specified ReplicaSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the ReplicaSet
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
@@ -3414,18 +3414,18 @@ read scale of the specified ReplicaSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Scale
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
@@ -3471,18 +3471,18 @@ read status of the specified ReplicaSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the ReplicaSet
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
@@ -3528,18 +3528,18 @@ read scale of the specified ReplicationControllerDummy
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Scale
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
@@ -3585,18 +3585,18 @@ read the specified PodSecurityPolicy
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the PodSecurityPolicy
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 exact = true # bool | Should the export be exact.  Exact export maintains cluster-specific fields like 'Namespace'. (optional)
@@ -3644,21 +3644,21 @@ replace the specified DaemonSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the DaemonSet
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.V1beta1DaemonSet() # V1beta1DaemonSet | 
+body = kubernetes.client.V1beta1DaemonSet() # V1beta1DaemonSet | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
@@ -3703,21 +3703,21 @@ replace status of the specified DaemonSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the DaemonSet
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.V1beta1DaemonSet() # V1beta1DaemonSet | 
+body = kubernetes.client.V1beta1DaemonSet() # V1beta1DaemonSet | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
@@ -3762,21 +3762,21 @@ replace the specified Deployment
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Deployment
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.ExtensionsV1beta1Deployment() # ExtensionsV1beta1Deployment | 
+body = kubernetes.client.ExtensionsV1beta1Deployment() # ExtensionsV1beta1Deployment | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
@@ -3821,21 +3821,21 @@ replace scale of the specified Deployment
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Scale
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.ExtensionsV1beta1Scale() # ExtensionsV1beta1Scale | 
+body = kubernetes.client.ExtensionsV1beta1Scale() # ExtensionsV1beta1Scale | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
@@ -3880,21 +3880,21 @@ replace status of the specified Deployment
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Deployment
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.ExtensionsV1beta1Deployment() # ExtensionsV1beta1Deployment | 
+body = kubernetes.client.ExtensionsV1beta1Deployment() # ExtensionsV1beta1Deployment | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
@@ -3939,21 +3939,21 @@ replace the specified Ingress
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Ingress
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.V1beta1Ingress() # V1beta1Ingress | 
+body = kubernetes.client.V1beta1Ingress() # V1beta1Ingress | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
@@ -3998,21 +3998,21 @@ replace status of the specified Ingress
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Ingress
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.V1beta1Ingress() # V1beta1Ingress | 
+body = kubernetes.client.V1beta1Ingress() # V1beta1Ingress | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
@@ -4057,21 +4057,21 @@ replace the specified NetworkPolicy
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the NetworkPolicy
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.V1beta1NetworkPolicy() # V1beta1NetworkPolicy | 
+body = kubernetes.client.V1beta1NetworkPolicy() # V1beta1NetworkPolicy | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
@@ -4116,21 +4116,21 @@ replace the specified ReplicaSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the ReplicaSet
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.V1beta1ReplicaSet() # V1beta1ReplicaSet | 
+body = kubernetes.client.V1beta1ReplicaSet() # V1beta1ReplicaSet | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
@@ -4175,21 +4175,21 @@ replace scale of the specified ReplicaSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Scale
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.ExtensionsV1beta1Scale() # ExtensionsV1beta1Scale | 
+body = kubernetes.client.ExtensionsV1beta1Scale() # ExtensionsV1beta1Scale | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
@@ -4234,21 +4234,21 @@ replace status of the specified ReplicaSet
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the ReplicaSet
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.V1beta1ReplicaSet() # V1beta1ReplicaSet | 
+body = kubernetes.client.V1beta1ReplicaSet() # V1beta1ReplicaSet | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
@@ -4293,21 +4293,21 @@ replace scale of the specified ReplicationControllerDummy
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the Scale
 namespace = 'namespace_example' # str | object name and auth scope, such as for teams and projects
-body = client.ExtensionsV1beta1Scale() # ExtensionsV1beta1Scale | 
+body = kubernetes.client.ExtensionsV1beta1Scale() # ExtensionsV1beta1Scale | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
@@ -4352,20 +4352,20 @@ replace the specified PodSecurityPolicy
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.ExtensionsV1beta1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.ExtensionsV1beta1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the PodSecurityPolicy
-body = client.V1beta1PodSecurityPolicy() # V1beta1PodSecurityPolicy | 
+body = kubernetes.client.V1beta1PodSecurityPolicy() # V1beta1PodSecurityPolicy | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:

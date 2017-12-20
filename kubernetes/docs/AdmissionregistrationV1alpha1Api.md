@@ -1,4 +1,4 @@
-# client.AdmissionregistrationV1alpha1Api
+# kubernetes.client.AdmissionregistrationV1alpha1Api
 
 All URIs are relative to *https://localhost*
 
@@ -32,19 +32,19 @@ create an ExternalAdmissionHookConfiguration
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.AdmissionregistrationV1alpha1Api(client.ApiClient(configuration))
-body = client.V1alpha1ExternalAdmissionHookConfiguration() # V1alpha1ExternalAdmissionHookConfiguration | 
+api_instance = kubernetes.client.AdmissionregistrationV1alpha1Api(kubernetes.client.ApiClient(configuration))
+body = kubernetes.client.V1alpha1ExternalAdmissionHookConfiguration() # V1alpha1ExternalAdmissionHookConfiguration | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
@@ -87,19 +87,19 @@ create an InitializerConfiguration
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.AdmissionregistrationV1alpha1Api(client.ApiClient(configuration))
-body = client.V1alpha1InitializerConfiguration() # V1alpha1InitializerConfiguration | 
+api_instance = kubernetes.client.AdmissionregistrationV1alpha1Api(kubernetes.client.ApiClient(configuration))
+body = kubernetes.client.V1alpha1InitializerConfiguration() # V1alpha1InitializerConfiguration | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
@@ -142,18 +142,18 @@ delete collection of ExternalAdmissionHookConfiguration
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.AdmissionregistrationV1alpha1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.AdmissionregistrationV1alpha1Api(kubernetes.client.ApiClient(configuration))
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 _continue = '_continue_example' # str | The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server the server will respond with a 410 ResourceExpired error indicating the client must restart their list without the continue field. This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications. (optional)
 field_selector = 'field_selector_example' # str | A selector to restrict the list of returned objects by their fields. Defaults to everything. (optional)
@@ -211,18 +211,18 @@ delete collection of InitializerConfiguration
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.AdmissionregistrationV1alpha1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.AdmissionregistrationV1alpha1Api(kubernetes.client.ApiClient(configuration))
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 _continue = '_continue_example' # str | The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server the server will respond with a 410 ResourceExpired error indicating the client must restart their list without the continue field. This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications. (optional)
 field_selector = 'field_selector_example' # str | A selector to restrict the list of returned objects by their fields. Defaults to everything. (optional)
@@ -280,20 +280,20 @@ delete an ExternalAdmissionHookConfiguration
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.AdmissionregistrationV1alpha1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.AdmissionregistrationV1alpha1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the ExternalAdmissionHookConfiguration
-body = client.V1DeleteOptions() # V1DeleteOptions | 
+body = kubernetes.client.V1DeleteOptions() # V1DeleteOptions | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 grace_period_seconds = 56 # int | The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately. (optional)
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
@@ -343,20 +343,20 @@ delete an InitializerConfiguration
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.AdmissionregistrationV1alpha1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.AdmissionregistrationV1alpha1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the InitializerConfiguration
-body = client.V1DeleteOptions() # V1DeleteOptions | 
+body = kubernetes.client.V1DeleteOptions() # V1DeleteOptions | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 grace_period_seconds = 56 # int | The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately. (optional)
 orphan_dependents = true # bool | Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the \"orphan\" finalizer will be added to/removed from the object's finalizers list. Either this field or PropagationPolicy may be set, but not both. (optional)
@@ -406,18 +406,18 @@ get available resources
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.AdmissionregistrationV1alpha1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.AdmissionregistrationV1alpha1Api(kubernetes.client.ApiClient(configuration))
 
 try:
     api_response = api_instance.get_api_resources()
@@ -455,18 +455,18 @@ list or watch objects of kind ExternalAdmissionHookConfiguration
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.AdmissionregistrationV1alpha1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.AdmissionregistrationV1alpha1Api(kubernetes.client.ApiClient(configuration))
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 _continue = '_continue_example' # str | The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server the server will respond with a 410 ResourceExpired error indicating the client must restart their list without the continue field. This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications. (optional)
 field_selector = 'field_selector_example' # str | A selector to restrict the list of returned objects by their fields. Defaults to everything. (optional)
@@ -524,18 +524,18 @@ list or watch objects of kind InitializerConfiguration
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.AdmissionregistrationV1alpha1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.AdmissionregistrationV1alpha1Api(kubernetes.client.ApiClient(configuration))
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 _continue = '_continue_example' # str | The continue option should be set when retrieving more results from the server. Since this value is server defined, clients may only use the continue value from a previous query result with identical query parameters (except for the value of continue) and the server may reject a continue value it does not recognize. If the specified continue value is no longer valid whether due to expiration (generally five to fifteen minutes) or a configuration change on the server the server will respond with a 410 ResourceExpired error indicating the client must restart their list without the continue field. This field is not supported when watch is true. Clients may start a watch from the last resourceVersion value returned by the server and not miss any modifications. (optional)
 field_selector = 'field_selector_example' # str | A selector to restrict the list of returned objects by their fields. Defaults to everything. (optional)
@@ -593,18 +593,18 @@ partially update the specified ExternalAdmissionHookConfiguration
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.AdmissionregistrationV1alpha1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.AdmissionregistrationV1alpha1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the ExternalAdmissionHookConfiguration
 body = NULL # object | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
@@ -650,18 +650,18 @@ partially update the specified InitializerConfiguration
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.AdmissionregistrationV1alpha1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.AdmissionregistrationV1alpha1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the InitializerConfiguration
 body = NULL # object | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
@@ -707,18 +707,18 @@ read the specified ExternalAdmissionHookConfiguration
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.AdmissionregistrationV1alpha1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.AdmissionregistrationV1alpha1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the ExternalAdmissionHookConfiguration
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 exact = true # bool | Should the export be exact.  Exact export maintains cluster-specific fields like 'Namespace'. (optional)
@@ -766,18 +766,18 @@ read the specified InitializerConfiguration
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.AdmissionregistrationV1alpha1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.AdmissionregistrationV1alpha1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the InitializerConfiguration
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 exact = true # bool | Should the export be exact.  Exact export maintains cluster-specific fields like 'Namespace'. (optional)
@@ -825,20 +825,20 @@ replace the specified ExternalAdmissionHookConfiguration
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.AdmissionregistrationV1alpha1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.AdmissionregistrationV1alpha1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the ExternalAdmissionHookConfiguration
-body = client.V1alpha1ExternalAdmissionHookConfiguration() # V1alpha1ExternalAdmissionHookConfiguration | 
+body = kubernetes.client.V1alpha1ExternalAdmissionHookConfiguration() # V1alpha1ExternalAdmissionHookConfiguration | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
@@ -882,20 +882,20 @@ replace the specified InitializerConfiguration
 ```python
 from __future__ import print_function
 import time
-import client
-from client.rest import ApiException
+import kubernetes.client
+from kubernetes.client.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: BearerToken
-configuration = client.Configuration()
+configuration = kubernetes.client.Configuration()
 configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = client.AdmissionregistrationV1alpha1Api(client.ApiClient(configuration))
+api_instance = kubernetes.client.AdmissionregistrationV1alpha1Api(kubernetes.client.ApiClient(configuration))
 name = 'name_example' # str | name of the InitializerConfiguration
-body = client.V1alpha1InitializerConfiguration() # V1alpha1InitializerConfiguration | 
+body = kubernetes.client.V1alpha1InitializerConfiguration() # V1alpha1InitializerConfiguration | 
 pretty = 'pretty_example' # str | If 'true', then the output is pretty printed. (optional)
 
 try:
