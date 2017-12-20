@@ -71,8 +71,11 @@ echo ">>> Patching generated code..."
 #find "${CLIENT_ROOT}" -type f -name \*.md -exec gsed -i 's/kubernetes.client-python/client-python/g' {} +
 echo ">>> Done"
 
+# sadly, swagger-codegen is not smart enough to make nested packages, oh well.
 cp -r ${GEN_OUTPUT}/kubernetes/client/* ${CLIENT_ROOT}/
 cp -r ${GEN_OUTPUT}/kubernetes.client/* ${CLIENT_ROOT}/
+cp -r ${GEN_OUTPUT}/test ${CLIENT_ROOT}/../
+cp -r ${GEN_OUTPUT}/docs ${CLIENT_ROOT}/../
 
 echo ">>> Updating version information..."
 gsed -i "s/^__version__ = .*/__version__ = \\\"${CLIENT_VERSION}\\\"/g" "${CLIENT_ROOT}/../../setup.py"
