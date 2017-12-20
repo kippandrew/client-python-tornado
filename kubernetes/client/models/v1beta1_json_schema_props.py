@@ -18,7 +18,6 @@ import six
 
 from kubernetes.client.models.v1beta1_external_documentation import V1beta1ExternalDocumentation  # noqa: F401,E501
 from kubernetes.client.models.v1beta1_json import V1beta1JSON  # noqa: F401,E501
-#from kubernetes.client.models.v1beta1_json_schema_props import V1beta1JSONSchemaProps  # noqa: F401,E501
 from kubernetes.client.models.v1beta1_json_schema_props_or_array import V1beta1JSONSchemaPropsOrArray  # noqa: F401,E501
 from kubernetes.client.models.v1beta1_json_schema_props_or_bool import V1beta1JSONSchemaPropsOrBool  # noqa: F401,E501
 from kubernetes.client.models.v1beta1_json_schema_props_or_string_array import V1beta1JSONSchemaPropsOrStringArray  # noqa: F401,E501
